@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   lottie: ^3.3.0
+  rive: ^0.13.20
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +21,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/lotties/
+    - assets/rive/
