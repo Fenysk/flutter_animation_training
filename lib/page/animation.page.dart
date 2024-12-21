@@ -16,14 +16,12 @@ class AnimationPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: SingleChildScrollView(
-            child: Column(
+            child: Row(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 buildLottie(context),
-                const SizedBox(
-                  height: 32,
-                ),
+                const SizedBox(width: 32),
                 buildRive(context),
               ],
             ),
